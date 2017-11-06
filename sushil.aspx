@@ -2,7 +2,7 @@
 	<head>
 		<style type="text/css">
 			.b1 {
-    background-image: url("bg1.jpg");
+    background-image: url("bg2.jpg");
     
 	background-position: center;
     background-repeat: no-repeat;
