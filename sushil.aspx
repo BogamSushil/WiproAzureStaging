@@ -8,7 +8,7 @@ function startTime() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('txt').innerHTML =  today.getDate() +  h + ":" + m + ":" + s;;
+    document.getElementById('txt').innerHTML =  today.getDate().format('MMM D, YYYY') +  h + ":" + m + ":" + s;;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
